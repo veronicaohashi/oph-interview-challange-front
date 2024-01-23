@@ -29,7 +29,7 @@ function handleStatementNotFound() {
     document.getElementById('card-total-incomes').textContent = '£ 0.00';
     document.getElementById('card-total-expenditures').textContent = '£ 0.00';
 
-    var tableBody = document.querySelector('#statement-table tbody');
+    var tableBody = document.querySelector('#transactions-table tbody');
     tableBody.innerHTML = '';
     var row = tableBody.insertRow()
     var singleCell = row.insertCell(0)
