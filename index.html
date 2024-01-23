@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Financial Statement</title>
+    </head>
+    <body class="bg-gray-200 text-center">
+        <div class="pt-12 px-20 mx-auto max-w-screen-xl">
+            <div class="mt-6 flex">
+                <div class="mr-3 grow rounded-lg bg-white p-3 shadow-md dark:bg-neutral-700">
+                    <form id="login-form" class="p-6">
+                        <div class="grid grid-cols-1 gap-4">
+                            <label
+                                for="document"
+                                class="block text-left text-sm font-medium text-gray-700 mb-1">
+                                Provide your document
+                            </label>
+
+                            <input
+                                type="text"
+                                id="personId"
+                                name="personId"
+                                required
+                                class="p-2 w-full border rounded-md" 
+                                />
+
+                            <button 
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="btn-redirect-form"> 
+                                Login
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
