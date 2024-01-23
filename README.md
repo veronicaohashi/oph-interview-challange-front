@@ -6,7 +6,7 @@
 ## How to run?
 1. Clone the repository:
 ```sh
-git clone https://github.com/veronicaohashi/oph-interview-challenge.git
+git clone https://github.com/veronicaohashi/oph-interview-challenge-front.git
 ```
 
 2. Execute the backend app https://github.com/veronicaohashi/oph-interview-challenge
