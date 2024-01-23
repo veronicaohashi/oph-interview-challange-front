@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Financial Statement</title>
+    </head>
+    <body class="bg-gray-200 text-center">
+        <div class="pt-12 px-20 mx-auto max-w-screen-xl">
+            <div class="mt-6 flex">
+                <div
+                    class="mr-3 grow rounded-lg bg-white p-3 shadow-md dark:bg-neutral-700">
+                    <h5 class="text-left text-neutral-600">
+                        Current Rating
+                    </h5>
+                    <p id="card-current-rating"
+                        class="text-left text-xl font-medium"></p>
+                </div>
+                <div
+                    class="mr-3 grow rounded-lg bg-white p-3 shadow-md dark:bg-neutral-700">
+                    <h5 class="text-left text-neutral-600">
+                        Current Balance
+                    </h5>
+                    <p id="card-current-balance"
+                        class="text-left text-xl font-medium"></p>
+                </div>
+                <div
+                    class="mr-3 grow rounded-lg bg-white p-3 shadow-md dark:bg-neutral-700">
+                    <h5 class="text-left text-neutral-600">
+                        Total Incomes
+                    </h5>
+                    <p id="card-total-incomes"
+                        class="text-left text-xl font-medium"></p>
+                </div>
+                <div
+                    class="grow rounded-lg bg-white p-3 shadow-md dark:bg-neutral-700">
+                    <h5 class="text-left text-neutral-600">
+                        Total Expenditures
+                    </h5>
+                    <p id="card-total-expenditures"
+                        class="text-left text-xl font-medium"></p>
+                </div>
+            </div>
+            <div class="mt-6 bg-white shadow-lg rounded-xl">
+                <div
+                    class="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b-md border-t-2 border-neutral-100 border-opacity-100 p-4 dark:border-opacity-50">
+                    <button 
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" id="btn-redirect-form"> Add Transactions </button>
+                </div>
+
+                <table id="transactions-table"
+                    class="w-full divide-y divide-gray-200 text-center text-lg font-light">
+                    <thead
+                        class="font-medium dark:border-neutral-500 dark:text-neutral-800">
+                        <tr>
+                            <th class="px-6 py-4 text-left">Date</th>
+                            <th class="px-6 py-4 text-left">Description</th>
+                            <th class="px-6 py-4 text-left">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody class="border-b dark:border-neutral-500">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="list.js"></script>
+    </body>
+</html>
